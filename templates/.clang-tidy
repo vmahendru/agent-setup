@@ -1,0 +1,16 @@
+# Copy to a C++ project root and tune. Checks that fire constantly without
+# catching real problems are disabled; re-enable any your team cares about.
+Checks: >
+  bugprone-*,
+  modernize-*,
+  cppcoreguidelines-*,
+  readability-*,
+  -modernize-use-trailing-return-type,
+  -cppcoreguidelines-avoid-magic-numbers,
+  -readability-magic-numbers,
+  -cppcoreguidelines-pro-bounds-pointer-arithmetic,
+  -cppcoreguidelines-pro-bounds-constant-array-index,
+  -readability-identifier-length,
+  -bugprone-easily-swappable-parameters
+WarningsAsErrors: ''
+HeaderFilterRegex: ''
