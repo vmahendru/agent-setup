@@ -2,7 +2,7 @@
 
 Claude Code defaults for agent-written code that a human reviewer will actually read.
 
-Frontier models usually get correctness right. Where they slip is taste: hand-rolled versions of library code, needless indirection, vague names, defensive handling for unreachable cases, comments written as notes to self, and 1,000-line PRs nobody can review. This repo pushes back on those at four points in the loop.
+Frontier models usually get correctness right. Where they slip is taste: hand-rolled versions of library code, needless indirection, vague names, defensive handling for unreachable cases, comments written as notes to self, and 1,000-line PRs nobody can review. This repo pushes back on those at four points in the loop. [`docs/problems.md`](docs/problems.md) lists the problems in detail, along with different perspectives on how much human review agent code needs.
 
 | Stage | What runs | What it catches |
 |---|---|---|
